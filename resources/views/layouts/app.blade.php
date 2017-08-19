@@ -82,10 +82,13 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <script>
         $('#sort').change(function(){
+<<<<<<< HEAD
 
             $.ajax({
                url: ''
             });
+=======
+>>>>>>> ceceb4408de5f99144881880868c9d3f50d1568b
             location.href = '/books/' + $(this).val();
         });
 
@@ -104,8 +107,11 @@
         $("#imgChange").change(function(){
             readURL(this);
         });
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ceceb4408de5f99144881880868c9d3f50d1568b
     </script>
 </body>
 </html>
